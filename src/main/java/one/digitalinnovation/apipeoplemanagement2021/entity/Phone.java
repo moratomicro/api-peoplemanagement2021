@@ -1,18 +1,20 @@
 package one.digitalinnovation.apipeoplemanagement2021.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import one.digitalinnovation.apipeoplemanagement2021.enums.PhoneType;
+import org.hibernate.Hibernate;
 
 import javax.persistence.*;
+import java.util.Objects;
 
 @Entity
-@Data
+@Getter
+@Setter
+@ToString
+@RequiredArgsConstructor
 @Builder
 @AllArgsConstructor
-@NoArgsConstructor
+//@NoArgsConstructor
 public class Phone {
 
     @Id
@@ -25,4 +27,5 @@ public class Phone {
 
     @Column(nullable = false)
     private String number;
+
 }
