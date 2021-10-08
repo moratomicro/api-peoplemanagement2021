@@ -1,4 +1,4 @@
-package one.digitalinnovation.apipeoplemanagement2021.dto;
+package one.digitalinnovation.apipeoplemanagement2021.dto.response;
 
 
 import lombok.Builder;

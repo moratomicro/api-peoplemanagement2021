@@ -1,4 +1,4 @@
-package one.digitalinnovation.apipeoplemanagement2021.repository;
+package one.digitalinnovation.apipeoplemanagement2021.repositories;
 
 import one.digitalinnovation.apipeoplemanagement2021.entity.Person;
 import org.springframework.data.jpa.repository.JpaRepository;

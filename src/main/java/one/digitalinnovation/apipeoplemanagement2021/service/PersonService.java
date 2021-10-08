@@ -1,17 +1,16 @@
 package one.digitalinnovation.apipeoplemanagement2021.service;
 
 import lombok.AllArgsConstructor;
-import one.digitalinnovation.apipeoplemanagement2021.dto.MessageResponseDTO;
+import one.digitalinnovation.apipeoplemanagement2021.dto.response.MessageResponseDTO;
 import one.digitalinnovation.apipeoplemanagement2021.dto.request.PersonDTO;
 import one.digitalinnovation.apipeoplemanagement2021.entity.Person;
 import one.digitalinnovation.apipeoplemanagement2021.exception.PersonNotFoundException;
 import one.digitalinnovation.apipeoplemanagement2021.mapper.PersonMapper;
-import one.digitalinnovation.apipeoplemanagement2021.repository.PersonRepository;
+import one.digitalinnovation.apipeoplemanagement2021.repositories.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service

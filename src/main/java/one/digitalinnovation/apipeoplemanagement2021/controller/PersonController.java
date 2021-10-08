@@ -2,9 +2,8 @@ package one.digitalinnovation.apipeoplemanagement2021.controller;
 
 
 import lombok.AllArgsConstructor;
-import one.digitalinnovation.apipeoplemanagement2021.dto.MessageResponseDTO;
+import one.digitalinnovation.apipeoplemanagement2021.dto.response.MessageResponseDTO;
 import one.digitalinnovation.apipeoplemanagement2021.dto.request.PersonDTO;
-import one.digitalinnovation.apipeoplemanagement2021.entity.Person;
 import one.digitalinnovation.apipeoplemanagement2021.exception.PersonNotFoundException;
 import one.digitalinnovation.apipeoplemanagement2021.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
